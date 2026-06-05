@@ -39,13 +39,6 @@
 
 ---
 
-## 🚀 Quick Start in Google Colab
-
-You can get up and running instantly inside a fresh Google Colab session using one of the methods below.
-
-### Method A: Execute Remotely (Recommended)
-Open a new cell in your Colab notebook and fetch the script directly from your repository:
-
 ```python
 !wget -q [https://raw.githubusercontent.com/Yonatankinfe/Cineget-v3/main/movie_downloader_colab.py](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/movie_downloader_colab.py) -O cineget.py
 exec(open('cineget.py').read())
